@@ -29,9 +29,9 @@ var shuffleFunc = (function () {
 
 shuffleFunc.arrangeArray(list)
 shuffleId.addEventListener('click', () => {
-    shuffleFunc.shuffle(list, shuffleId)
+    shuffleFunc.shuffle(list, 'shuffle')
 })
 sortId.addEventListener('click', () => {
-    shuffleFunc.shuffle(list, sortId)
+    shuffleFunc.shuffle(list, 'sort')
 })
 
